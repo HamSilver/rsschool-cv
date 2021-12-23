@@ -20,11 +20,16 @@ _In IT since the age of 12. )) Digital dinosaur. I remember FidoNet and modem so
 ***
 ## Code sample
 Random Codewars solution:
-```
+```javascript
 function rgb(r, g, b){
   return [r,g,b].map(x => x>255 ? 255 : x).map(x => x>0 ? ("0"+((x).toString(16))).slice(-2).toUpperCase() : '00').join('');
 }
 ```
+***
+## Expirience
+* I taught сomputer science at school: got stress resistance and conversation practice with native speaking Peace Corps volunteers, worked there.
+* I worked in a bank as programmer: got knowledge of databases, security and backup importance.
+* I wrote billing for an internet provider: dived into Perl, PHP, HTML and PostgreSQL.
 ***
 ## Education
 Mainly online/books self-education
