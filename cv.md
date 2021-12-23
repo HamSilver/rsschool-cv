@@ -4,7 +4,9 @@
 - *Phone:* +7 921 006 9767
 - *GitHub:* HamSilver
 - *Email:* kolpakoff@gmail.com
+
 ***
+
 ## About me
 In IT since the age of 12. )) Digital dinosaur. I remember FidoNet and modem sounds.<br />
 I taught сomputer science at school: got stress resistance and conversation practice with native speaking Peace Corps volunteers, worked there.<br />
@@ -14,7 +16,9 @@ I worked as design engineer: had been drawing things in CAD.<br />
 I worked as designer: just had been drawing.<br />
 I worked as web designer/programmer: learned magic how to made working site from a pencil sketch. <br />
 Keep learning.
+
 ***
+
 ## Skills
 * PHP / Perl / Python / C++ / Delphi / FoxPro / VBA / JS
 * MSSQL / MySQL / PgSQL / Interbase 
@@ -25,7 +29,9 @@ Keep learning.
 * Figma
 * Photoshop / CorelDraw / InDesign
 * 3DS Max / Creo / NX
+
 ***
+
 ## Code sample
 JS / jQuery form validating:
 ```javascript
@@ -99,6 +105,7 @@ function saveshop() {
 	  show_err(data,'saveshop:check:1');
 }
 ```
+
 Little bit of PHP:
 ```php
 if ($numrow>0) {
@@ -143,6 +150,7 @@ if ($numrow>0) {
 	}
 }
 ```
+
 Perl example:
 ```perl
 #!/usr/bin/perl
@@ -168,14 +176,20 @@ for (my $i=0; $i <= 999; $i++) {
 }
 close $rslt;
 ```
+
 ***
+
 ## Expirience
 I have experience in web and software development as I wrote above. 
+
 ***
+
 ## Education
 **Dalnegorsk Evening Industrial College** (Now Dalnegorsk branch of Far Eastern Federal University)<br />
 _Specialist's degree: Automated information processing and management systems_
+
 ***
+
 ## Languages
 - **Russian** - native
 - **English** - B1 (Intermediate)
