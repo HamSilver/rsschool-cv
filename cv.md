@@ -1,21 +1,21 @@
 # Stanislav Kolpakov
 
 ## Contact information
-- *Phone:* +7 921 006 9767
-- *GitHub:* HamSilver
-- *Email:* kolpakoff@gmail.com
+- Phone: +7 921 006 9767
+- GitHub: HamSilver
+- Email: kolpakoff@gmail.com
 
 ***
 
 ## About me
-In IT since the age of 12. )) Digital dinosaur. I remember FidoNet and modem sounds.<br />
-I taught сomputer science at school: got stress resistance and conversation practice with native speaking Peace Corps volunteers, worked there.<br />
-I worked in a bank as programmer: got knowledge of databases, security and backup importance.<br />
-I wrote billing for an internet provider: dived into Perl, PHP, HTML and PostgreSQL.<br />
-I worked as design engineer: had been drawing things in CAD.<br />
-I worked as designer: just had been drawing.<br />
-I worked as web designer/programmer: learned magic how to made working site from a pencil sketch. <br />
-Keep learning.
+- In IT since the age of 12. )) Digital dinosaur. I remember FidoNet and modem sounds.
+- I taught сomputer science at school: got stress resistance and conversation practice with native speaking Peace Corps volunteers, worked there.
+- I worked in a bank as programmer: got knowledge of databases, security and backup importance.
+- I wrote billing for an internet provider: dived into Perl, PHP, HTML and PostgreSQL.
+- I worked as design engineer: had been drawing things in CAD.
+- I worked as designer: just had been drawing.
+- I worked as web designer/programmer: learned magic how to made working site from a pencil sketch.
+- Keep learning.
 
 ***
 
