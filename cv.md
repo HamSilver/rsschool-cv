@@ -37,7 +37,7 @@ function saveshop() {
 	var re = /^[A-ZА-Я0-9._\(\)\-\+\s]+$/i;  
 	var ru = /^[A-ZА-Я.\-\s]+$/i;  
 	var rd = /^[A-Z0-9\-\s]+$/i; 
-	var em = /^[a-zA-Z0-9._-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,4}$/;
+	var em = /^[A-Z0-9._-]+@[A-Z0-9.-]+\.[A-Z]{2,4}$/i;
 	if ((sss.length<1)|(null == sss.match(re))) {
 		err = 'Неправильно указано название торговой организации:\n-- допустимые знаки: А-Я A-Z 0-9 . _ + - ( )\n';
 	}
@@ -75,7 +75,7 @@ function saveshop() {
 		$("input[name=key]").val(key);
 		$("#ajaxload").show();
 	  if (debug==0) {
-		  $.post('/fornaction.php', $("#addshopform").serialize(),
+		  $.post('/formaction.php', $("#addshopform").serialize(),
 			function(data) {
 				$("#ajaxload").fadeOut();
 				if (data[0].result=='exec') {
@@ -88,7 +88,7 @@ function saveshop() {
    			}, "json"
 		  );
 	  } else {
-		  $.post('/formactionpage.php', $("#addshopform").serialize(),
+		  $.post('/formaction.php', $("#addshopform").serialize(),
 			function(data){
 				$("#ajaxload").fadeOut();
 				alert(data);
@@ -97,7 +97,6 @@ function saveshop() {
 	  }
 	} else 
 	  show_err(data,'saveshop:check:1');
-
 }
 ```
 Little bit of PHP:
@@ -108,21 +107,21 @@ if ($numrow>0) {
 // регистрируем
 	$psw=ae_gen_password();
 	$are=md5(''.microtime());
-	$query = sprintf("INSERT INTO actioninfo (fname,nname,sname,postcode,country_id,region_id,city_id,ocity,address,phone,email,pass,reg) VALUES (%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s)",
-    quote_smart($fname),
-    quote_smart($nname),
-    quote_smart($sname),
-    quote_smart($index),
-    quote_smart($country_id),
-    quote_smart($region_id),
-    quote_smart($city_id),
-    quote_smart($ocity),
-    quote_smart($address),
-    quote_smart($phone),
-    quote_smart($email),
-    quote_smart($psw),
-	  quote_smart($are)
-	);
+  $query = sprintf("INSERT INTO actioninfo (fname,nname,sname,postcode,country_id,region_id,city_id,ocity,address,phone,email,pass,reg) VALUES (%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s)",
+  quote_smart($fname),
+  quote_smart($nname),
+  quote_smart($sname),
+  quote_smart($index),
+  quote_smart($country_id),
+  quote_smart($region_id),
+  quote_smart($city_id),
+  quote_smart($ocity),
+  quote_smart($address),
+  quote_smart($phone),
+  quote_smart($email),
+  quote_smart($psw),
+  quote_smart($are)
+  );
 	$result=mysql_query($query) or die (mysql_error());
 	require_once($_SERVER['DOCUMENT_ROOT'].'/class.phpmailer.php');
 	$mail             = new PHPMailer();
@@ -144,7 +143,7 @@ if ($numrow>0) {
 	}
 }
 ```
-Some Perl example:
+Perl example:
 ```perl
 #!/usr/bin/perl
 use XML::Simple;
@@ -171,11 +170,12 @@ close $rslt;
 ```
 ***
 ## Expirience
-
-
+I have experience in web and software development as I wrote above. 
 ***
 ## Education
-Mainly online/books self-education
+**Dalnegorsk Evening Industrial College** (Now Dalnegorsk branch of Far Eastern Federal University)
+_Specialist's degree: Automated information processing and management systems_
 ***
-## English level
-B1 (Intermediate)
+## Languages
+- **Russian** - native
+- **English** - B1 (Intermediate)
