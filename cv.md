@@ -30,6 +30,9 @@ function rgb(r, g, b){
 * I taught сomputer science at school: got stress resistance and conversation practice with native speaking Peace Corps volunteers, worked there.
 * I worked in a bank as programmer: got knowledge of databases, security and backup importance.
 * I wrote billing for an internet provider: dived into Perl, PHP, HTML and PostgreSQL.
+* I worked as design engineer: had been drawing things in CAD.
+* I worked as designer: just had been drawing.
+* I worked as web designer/programmer: learned magic how to made working site from a pencil sketch.
 ***
 ## Education
 Mainly online/books self-education
