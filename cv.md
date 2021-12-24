@@ -186,7 +186,7 @@ I have experience in web and software development as I wrote above.
 
 ## Education
 **Dalnegorsk Evening Industrial College** (Now Dalnegorsk branch of Far Eastern Federal University)<br />
-_Specialist's degree: Automated information processing and management systems_
+_Automated information processing and management systems_
 
 ***
 
