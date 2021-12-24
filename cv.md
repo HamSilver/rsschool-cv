@@ -46,7 +46,7 @@ function rgb(r, g, b){
 ***
 
 ## Expirience
-I have experience in web and software development as I wrote above. 
+CV1. Markdown & Git on [GitHub](https://hamsilver.github.io/rsschool-cv/cv)
 
 ***
 
