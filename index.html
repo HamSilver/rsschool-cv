@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CV</title>
+    <link rel="icon" href="assets/images/favicon.ico">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Quicksand:wght@500;700&display=swap">
+    <link href="assets/css/prism.css" rel="stylesheet" />
+    <script src="https://code.iconify.design/2/2.1.0/iconify.min.js"></script>
+</head>
+
+<body>
+    <div class="wrapper">
+
+        <header>
+            <nav class="nav">
+                <ul class="nav-list">
+                    <li><a href="#about">About Me</a></li>
+                    <li><a href="#contacts">Contacts</a></li>
+                    <li><a href="#skills">Skills</a></li>
+                    <li><a href="#expirience">Expirience</a></li>
+                    <li><a href="#code-example">Code example</a></li>
+                    <li><a href="#education">Education</a></li>
+                    <li><a href="#language">Languages</a></li>
+                </ul>
+            </nav>
+            <div class="hdr-text">
+                <h1>Stanislav Kolpakov</h1>
+                <p class="prof">Full-stack Developer</p>
+            </div>
+            <img src="assets/images/retrowave_sq.jpg" alt="Photo: me" class="hdr-photo" />
+        </header>
+
+        <main>
+            <div class="main">
+                <section id="about">
+                    <h2>About Me</h2>
+                    <ul class="main-list">
+                        <li>In IT since the age of 12. )) Digital dinosaur. I remember FidoNet and modem sounds.</li>
+                        <li>I taught сomputer science at school: got stress resistance and conversation practice with
+                            native speaking Peace Corps volunteers, worked there.</li>
+                        <li>I worked in a bank as programmer: got knowledge of databases, security and backup
+                            importance.</li>
+                        <li>I wrote billing for an internet provider: dived into Perl, PHP, HTML and PostgreSQL.</li>
+                        <li>I worked as design engineer: had been drawing things in CAD.</li>
+                        <li>I worked as designer: just had been drawing.</li>
+                        <li>I worked as web designer/programmer: learned magic how to made working site from a pencil
+                            sketch.</li>
+                        <li>Keep learning.</li>
+                    </ul>
+                </section>
+                <section id="skills">
+                    <h2>Skills</h2>
+                    <ul class="main-list">
+                        <li> PHP / Perl / Python / C++ / Delphi / FoxPro / VBA / JS</li>
+                        <li> MSSQL / MySQL / PgSQL / Interbase </li>
+                        <li> HTML / CSS</li>
+                        <li> jQuery / React</li>
+                        <li> GIT / GitHub</li>
+                        <li> Windows / Linux </li>
+                        <li> Figma</li>
+                        <li> Photoshop / CorelDraw / InDesign</li>
+                        <li> 3DS Max / Creo / NX</li>
+                    </ul>
+                </section>
+                <section id="expirience">
+                    <h2>Expirience</h2>
+                    <p class="exp">CV1. Markdown & Git on <a
+                            href="https://hamsilver.github.io/rsschool-cv/cv">GitHub</a><br />
+                        To be continued...</p>
+                </section>
+                <section id="code-example">
+                    <h2>Code Example</h2>
+                    <pre><code class="language-js">function sumIntervals(intervals){
+	if (intervals.length>1) {
+		intervals.sort((c,n) => c[0]- n[0]);
+		let st = [intervals[0]];
+		for (let i = 1; i &lt; intervals.length; i++) {
+			if (intervals[i][0]&lt;=st[st.length-1][1]) {
+				st.splice(
+					st.length-1,
+					1,
+					[Math.min(st[st.length-1][0],intervals[i][0]),
+					Math.max(st[st.length-1][1],intervals[i][1])]
+				);
+			} else {
+				st.push(intervals[i]);
+			}
+		}
+		intervals=st;
+	}
+	let r=0;
+	for(let e of intervals) {
+		r+=e[1]-e[0];
+	}
+	return r;
+}</code></pre>
+                </section>
+            </div>
+
+            <aside>
+                <section id="contacts">
+                    <h2>Contacts</h2>
+                    <ul class="aside-list">
+                        <li><span class="iconify-inline" data-icon="fa-solid:phone-alt"></span> +7 921 006 9767</li>
+                        <li><span class="iconify-inline" data-icon="fa-brands:github"></span> HamSilver</li>
+                        <li><span class="iconify-inline" data-icon="fa-solid:envelope"></span> kolpakoff@gmail.com</li>
+                        <li><span class="iconify-inline" data-icon="fa-brands:telegram-plane"></span> @HamSilver</li>
+                        <li><span class="iconify-inline" data-icon="fa-brands:discord"></span> Stanislav (@HamSilver)
+                        </li>
+                        <li><span class="iconify-inline" data-icon="mdi:map-marker"></span> Russia, Kaliningrad</li>
+                    </ul>
+                </section>
+                <section id="education">
+                    <h2>Education</h2>
+                    <p><strong>Dalnegorsk Evening Industrial College</strong><br />
+                        (Now Dalnegorsk branch of Far Eastern Federal University)<br />
+                        <em>Automated information processing and management systems</em>
+                    </p>
+                </section>
+                <section id="language">
+                    <h2>Language</h2>
+                    <ul class="aside-list">
+                        <li>Russian - native</li>
+                        <li>English - B1 (Intermediate)</li>
+                    </ul>
+                </section>
+            </aside>
+        </main>
+
+        <footer>
+            <div>&copy; 2022 <a target="_blank" href="https://github.com/HamSilver" title="Visit me on GitHub">Stanislav
+                    Kolpakov</a></div>
+            <div class="footer-rsschool">
+                <a target="_blank" href="https://rs.school/js/" title="JS Course · The Rolling Scopes School"><img
+                        src="assets/images/rs_school_js.svg" alt="RSSchool backlink" /></a>
+            </div>
+        </footer>
+
+    </div>
+    <script src="assets/js/prism.js"></script>
+    <script>
+        document.querySelectorAll('div.code').forEach(el => {
+            hljs.highlightElement(el);
+        });
+    </script>
+</body>
+
+</html>

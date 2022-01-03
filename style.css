@@ -1,0 +1,128 @@
+* {
+    box-sizing: border-box;
+}
+html {
+    scroll-behavior: smooth; 
+}
+.prof {
+    font-size:1.5em;
+    font-weight: bold;
+}
+h2 {
+    text-transform: uppercase;
+    writing-mode:vertical-rl;
+    font-size:1.2em;
+    padding-top:22px;
+    margin-left: 0px;
+    margin-right: 0px;
+}
+body {
+    margin: 0; 
+    padding: 0;
+    font-family: 'Quicksand', sans-serif;
+    font-weight: 500;
+    background-color: ivory;
+}
+.exp {
+    padding:0 0 84px 16px;
+}
+.wrapper {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    width: 1000px;
+    min-height: 100vh;
+    margin: auto;
+    justify-content: space-between;
+}
+header {
+    display: flex;
+    flex-wrap: wrap;
+    flex: 0 0 100%;
+    padding: 24px 0 16px 0;
+}
+main {
+    display: flex;
+    flex: 1 0 700px;
+}
+aside {
+    display: flex;
+    flex-direction: column;
+    flex: 1 0 267px;
+    align-self: flex-start;
+}
+main section {
+    display: flex;
+    flex: 1 1 auto;
+}
+aside section {
+    display: flex;
+    flex-direction: row-reverse;
+    flex: 1 1 auto;
+    justify-content: space-between;
+    margin-bottom: 22px;
+}
+.aside-list {
+    list-style-type: none; 
+}
+.main-list {
+    margin-left: 32px; 
+    padding-left: 0; 
+    list-style-type:square; 
+    width:75%;
+}
+.iconify-inline {
+    data-width:16;
+    data-height:16;
+}
+aside ul {
+    margin-left: 0; 
+    padding-left: 0; 
+}
+.hdr-text {
+    flex-grow: 1;
+    align-self: center;
+    text-align: left;
+}
+.hdr-photo {
+    width:267px;
+    flex: 0 0 267px;
+    border-radius: 10px;
+}
+.nav {
+    position: fixed;
+    top: 0;
+    background-color: darkgray;
+    width: 1000px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex: 1 0 100%;
+    border-radius: 0px 0px 10px 10px;
+}
+.nav-list {
+    display: flex;
+    justify-content: center;
+    padding: 0;
+    margin: 0;
+    list-style-type: none; 
+}
+.nav-list a {
+    padding: 0 16px 0 16px;
+    text-decoration: none;
+    color: white;
+    transition: .5s;
+}
+.nav-list a:hover {
+    color: black;
+}
+footer {
+    display: flex;
+    justify-content: space-between;
+    padding:16px 24px 16px 24px;
+    align-items: center;
+}
+.footer-rsschool img {
+    width:120px;
+    height: auto;
+}
