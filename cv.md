@@ -6,7 +6,8 @@
 - Phone: +7 921 006 9767
 - GitHub: HamSilver
 - Email: kolpakoff@gmail.com
-- Discord: Stanislav (@HamSilver)
+- Discord: HamSilver#6397
+- Telegram: @HamSilver
 
 ***
 
@@ -23,7 +24,7 @@
 ***
 
 ## Skills
-* PHP / Perl / Python / C++ / Delphi / FoxPro / VBA / JS
+* PHP / Perl / Python / C++ / Delphi / FoxPro / VBA / JS / TS
 * MSSQL / MySQL / PgSQL / Interbase 
 * HTML / CSS
 * jQuery / React
@@ -46,7 +47,8 @@ function rgb(r, g, b){
 ***
 
 ## Expirience
-CV1. Markdown & Git on [GitHub](https://hamsilver.github.io/rsschool-cv/cv)
+[Portfolio for Alexa Rise](https://rolling-scopes-school.github.io/hamsilver-JSFEPRESCHOOL/portfolio/)
+[Pokemon Memory game](https://rolling-scopes-school.github.io/hamsilver-JSFEPRESCHOOL/memory-game/)
 
 ***
 
