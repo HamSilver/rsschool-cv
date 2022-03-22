@@ -26,7 +26,7 @@
 ## Skills
 * PHP / Perl / Python / C++ / Delphi / FoxPro / VBA / JS / TS
 * MSSQL / MySQL / PgSQL / Interbase 
-* HTML / CSS
+* HTML / CSS / BEM
 * jQuery / React
 * GIT / GitHub
 * Windows / Linux 
@@ -47,14 +47,41 @@ function rgb(r, g, b){
 ***
 
 ## Expirience
-[Portfolio for Alexa Rise](https://rolling-scopes-school.github.io/hamsilver-JSFEPRESCHOOL/portfolio/)
-[Pokemon Memory game](https://rolling-scopes-school.github.io/hamsilver-JSFEPRESCHOOL/memory-game/)
+### [Portfolio for Alexa Rise](https://rolling-scopes-school.github.io/hamsilver-JSFEPRESCHOOL/portfolio/)
+- HTML / CSS / JS
+- Pixel Perfect Figma to HTML conversion
+- Theme, language and gallery switching
+- Custom video player
+- Responsive design
+
+### [Image Gallery](https://rolling-scopes-school.github.io/hamsilver-JSFEPRESCHOOL/memory-game/)
+- HTML / CSS / JS
+- Custom image gallery
+- Interaction with Flickr API
+- Image search
+- Responsive design
+
+### [Pokemon Memory game](https://rolling-scopes-school.github.io/hamsilver-JSFEPRESCHOOL/memory-game/)
+- HTML / CSS / JS
+- Memory game
+- Cuty pokemons
+- Video background
+- Music and sound effects
+
+### [Portfolio for freeCodeCamp](https://hamsilver.github.io/portfolio-fcc/)
+- HTML / CSS (BEM)
 
 ***
 
 ## Education
 **Dalnegorsk Evening Industrial College** (Now Dalnegorsk branch of Far Eastern Federal University)<br />
 _Automated information processing and management systems_
+
+### Last courses:
+- [C++](https://www.sololearn.com/certificates/course/en/24814029/1051/landscape/png)
+- [JS/FE Pre-School 2022](https://app.rs.school/certificate/kzuo44j8)
+- [Responsive Web Design](https://www.freecodecamp.org/certification/HamSilver/responsive-web-design)
+- [TypeScript by Microsoft](https://docs.microsoft.com/ru-ru/learn/paths/build-javascript-applications-typescript/)
 
 ***
 
