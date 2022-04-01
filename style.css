@@ -126,3 +126,54 @@ footer {
     width:120px;
     height: auto;
 }
+.project-tile {
+    display: flex;
+    flex-direction: row;
+    gap: 15px;
+    padding-bottom: 15px;
+}
+.project-tile__title {
+    padding-left: 20px;
+    font-size: 1.1rem;
+    font-weight: 700;
+}
+.project-tile__description {
+    padding: 10px 0 10px 20px; 
+}
+.project-tile__features {
+    font-size: .9rem;
+    margin: 0; 
+    padding: 0; 
+    list-style-type:square; 
+    width:85%;
+}
+.expirience__content {
+    padding: 0.5em 1em;
+    width:100%;
+}
+.expirience__list {
+    padding: 0; 
+    margin:0;
+    list-style-type:none; 
+    width:100%;
+}
+.project-tile__img {
+    border-radius: .6em;
+}
+.project-tile__text {
+    width: 100%;
+}
+.education__list p {
+    margin:0;
+    padding-top: 5px;
+}
+.education__list > div  {
+    padding: 10px 0 0 20px;
+}
+.education__list > div > p {
+    margin-left: -20px;
+}
+.education__list > div > ul {
+    margin: 0;
+    list-style-type:square; 
+}
